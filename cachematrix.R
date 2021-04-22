@@ -1,8 +1,8 @@
-# Two functions to calculate or catch the inverse of a matrix 
+# Two functions to calculate or cache the inverse of a matrix 
 
 # First function to build and return a list of functions to set and get a matrix
 
-makeCatchMatrix <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) {
   # initiate a matrix and object m to get the inverse matrix in the later code
    m <- NULL
   # assign the input of x and value of m to the parent environment
